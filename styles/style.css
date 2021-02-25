@@ -78,3 +78,14 @@ body {
     color: white;
     font-family: batman;
 }
+
+.about-me > .batman-video {
+    float: left;
+    max-width: 50%;
+}
+
+.about-me> .batman-info {
+    float: right;
+    max-width: 50%;
+
+}
