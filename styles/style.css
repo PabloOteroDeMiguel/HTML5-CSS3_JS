@@ -31,10 +31,12 @@ body {
     list-style-type: none;
     margin: 0;
     float: right;
+    font-size: 0;
 }
 
 .navbar > .navbar-list > .navbar-item {
     display: inline-block;
+    font-size: 16px;
 }
 
 .navbar > .navbar-list > .navbar-item a {
@@ -45,6 +47,11 @@ body {
 }
 
 .navbar > .navbar-list > .navbar-item.active  a {
+    color: #F7F7F7;
+    background-color: #A4A4A4;
+}
+
+.navbar > .navbar-list > .navbar-item a:hover {
     color: #F7F7F7;
     background-color: #A4A4A4;
 }
@@ -77,6 +84,18 @@ body {
     font-size: 28px;
     color: white;
     font-family: batman;
+}
+
+.section-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-reverse {
+    background-color: rgba(0, 0, 0, 0.92);
+    color: #F7F7F7;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
 }
 
 .about-me > .batman-video {
